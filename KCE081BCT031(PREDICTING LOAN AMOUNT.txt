@@ -1,0 +1,57 @@
+KCE081BCT031(PREDICTING LOAN AMOUNTS)
+
+Assigned EDA
+
+1. Target Variable Analysis (LoanAmount)
+● Analyze distribution of loan amounts
+○ Mean, median, min, max, standard deviation
+
+2. Demographic Analysis
+● Analyze loan amount by:
+○ Gender
+○ Married
+○ Dependents
+
+● Identify patterns in loan allocation among different demographic groups
+3. Education & Employment Analysis
+● Examine Education and Self_Employed status vs loan amount
+● Identify whether education or employment type influences approved loan amounts
+
+4. Income Analysis
+● Analyze ApplicantIncome and CoapplicantIncome vs LoanAmount
+● Examine correlation between income and loan amount
+● Identify thresholds for loan eligibility based on income
+
+5. Loan Term & Interest Rate Analysis
+● Analyze Loan_Amount_Term and Interest_Rate distribution
+● Examine relationship between loan term, interest rate, and loan amount
+● Identify optimal loan term ranges for larger loans
+
+6. Credit History Analysis
+● Analyze Credit_History vs loan amount
+● Examine whether applicants with positive credit history receive higher loans
+● Identify the impact of credit history on approved loan amounts
+
+7. Property Area Analysis
+● Analyze Property_Area vs loan amount
+● Compare loan allocation across urban, semi-urban, and rural areas
+● Identify patterns in property-based loan distribution
+
+8. Loan Status Analysis
+● Analyze Loan_Status vs loan amount
+● Examine whether approved loans are skewed toward higher amounts
+● Identify rejected applications and reasons if available
+
+9. Interaction & Combined Effects
+● Analyze combined effects of:
+○ Income × Credit_History
+○ Gender × LoanAmount
+○ Education × ApplicantIncome
+● Identify patterns affecting loan allocation
+
+10. Feature Engineering Insights
+● Engineer new features such as:
+○ Total income (Applicant + Coapplicant)
+○ Debt-to-income ratio
+○ Loan-to-value proxy
+○ Income bands or categories
